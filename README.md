@@ -24,7 +24,7 @@
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/Wuang26/Kaorios-Toolbox/tree/main/Toolbox-screenshots">🔍 See more screenshots →</a>
+  <a href="https://github.com/lucnguyen06/Kaorios-Toolbox-Data/tree/main/Toolbox-screenshots">🔍 See more screenshots →</a>
 </p>
 
 ---
