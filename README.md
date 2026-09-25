@@ -55,7 +55,7 @@ Help us translate Kaorios-Toolbox into your language! 🌐
 
 ## 🙏 Credits
 
-- **Original Developer** — [Kaori](https://github.com/Wuang26)
+- **Original Developer** — [Kousei](https://github.com/Wuang26)
 - **Payload Dumper** — [rcmiku](https://github.com/rcmiku/Payload-Dumper-Compose).
 - **AOSP Framework**
 - **Trickystore**
