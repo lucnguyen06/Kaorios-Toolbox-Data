@@ -16,7 +16,7 @@
 ## 🖼️ Screenshots
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/Wuang26/Kaorios-Toolbox/refs/heads/main/Toolbox-screenshots/Home.png">
+  <a href="https://github.com/lucnguyen06/Kaorios-Toolbox-Data/blob/main/Toolbox-screenshots/Home.jpg">
     <img src="https://raw.githubusercontent.com/Wuang26/Kaorios-Toolbox/refs/heads/main/Toolbox-screenshots/Home.png" alt="Home Screen" width="45%" style="max-width:320px; border-radius:8px;"/>
   </a>
   <a href="https://raw.githubusercontent.com/Wuang26/Kaorios-Toolbox/refs/heads/main/Toolbox-screenshots/Tools.png">
