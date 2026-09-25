@@ -63,25 +63,25 @@ document.addEventListener('DOMContentLoaded', () => {
   const showcaseData = {
     home: {
       img: 'Toolbox-screenshots/Homenew.png?v=2',
-      title: 'Màn hình chính — Giám sát thông số & Thiết bị',
-      desc: 'Tổng hợp toàn bộ thông số phần cứng thiết bị theo thời gian thực: RAM, Bộ nhớ lưu trữ, Mức Pin, Chipset vi xử lý (Snapdragon SM8850), Thời tiết và Thông tin bản dựng phần mềm.',
+      title: 'Home Dashboard — Real-time Device Diagnostics',
+      desc: 'Comprehensive hardware telemetry at your fingertips: RAM utilization, storage metrics, battery health and charge state, chipset identification (Snapdragon SM8850), live weather, and OS build information.',
       bullets: [
-        'Hiển thị thông số RAM và Storage đã sử dụng / tổng dung lượng',
-        'Giám sát nhiệt độ Pin và trạng thái nguồn điện',
-        'Tùy biến banner giao diện vũ trụ ấn tượng',
-        'Xem chi tiết thông số Nhà sản xuất & Brand thiết bị'
+        'Live RAM and storage capacity consumption indicators',
+        'Battery temperature and charging status telemetry',
+        'Customizable galaxy cosmic header theme',
+        'Detailed manufacturer, brand, and device identifiers'
       ]
     },
     tools: {
       img: 'Toolbox-screenshots/Toolsnew.png?v=2',
-      title: 'Công cụ hệ thống — System Tools & Fixes',
-      desc: 'Kho vũ khí toàn năng xử lý chuyên sâu: Vượt Play Integrity (Basic, Device, Strong), quản lý ứng dụng giả lập, mở khóa FPS cao cho game, trích xuất OTA Payload và hiển thị HUD Overlay.',
+      title: 'System Tools — Comprehensive Fixes & Utilities',
+      desc: 'Your complete toolkit for Android system mastery: bypass Play Integrity, configure per-app spoofing, unlock high-FPS modes, extract OTA payloads, and monitor performance.',
       bullets: [
-        'Vượt kiểm tra Play Integrity: MEETS_BASIC, DEVICE, STRONG pass 100%',
-        'Features & Spoofing App: Giả lập model điện thoại tùy chọn cho từng app',
-        'Payload Dumper: Giải nén phân vùng OTA (boot, init_boot...) trực tiếp trên máy',
-        'FPS & CPU Overlay: Hiển thị thời gian thực FPS, tải CPU và tần số quét',
-        'Hidden Features: Ẩn tùy chọn nhà phát triển & danh sách ứng dụng'
+        '100% Play Integrity pass: MEETS_BASIC, DEVICE, and STRONG',
+        'Per-app model & build property spoofing manager',
+        'On-device Payload Dumper for OTA partition extraction',
+        'Real-time floating FPS, CPU load, and refresh rate HUD',
+        'Hidden features: Hide Developer Options and app lists'
       ]
     }
   };
