@@ -16,11 +16,11 @@
 ## 🖼️ Screenshots
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/lucnguyen06/Kaorios-Toolbox-Data/refs/heads/main/Toolbox-screenshots/Homenew.png">
-    <img src="https://raw.githubusercontent.com/lucnguyen06/Kaorios-Toolbox-Data/refs/heads/main/Toolbox-screenshots/Homenew.png?v=2" alt="Home Screen" width="45%" style="max-width:320px; border-radius:8px;"/>
+  <a href="https://raw.githubusercontent.com/lucnguyen06/Kaorios-Toolbox-Data/refs/heads/main/Toolbox-screenshots/01-main-home-screen.png">
+    <img src="https://raw.githubusercontent.com/lucnguyen06/Kaorios-Toolbox-Data/refs/heads/main/Toolbox-screenshots/01-main-home-screen.png" alt="Home Screen" width="45%" style="max-width:320px; border-radius:8px;"/>
   </a>
-  <a href="https://raw.githubusercontent.com/lucnguyen06/Kaorios-Toolbox-Data/refs/heads/main/Toolbox-screenshots/Toolsnew.png">
-    <img src="https://raw.githubusercontent.com/lucnguyen06/Kaorios-Toolbox-Data/refs/heads/main/Toolbox-screenshots/Toolsnew.png?v=2" alt="Tools Screen" width="45%" style="max-width:320px; border-radius:8px;"/>
+  <a href="https://raw.githubusercontent.com/lucnguyen06/Kaorios-Toolbox-Data/refs/heads/main/Toolbox-screenshots/02-navigation-menu.png">
+    <img src="https://raw.githubusercontent.com/lucnguyen06/Kaorios-Toolbox-Data/refs/heads/main/Toolbox-screenshots/02-navigation-menu.png" alt="Tools Screen" width="45%" style="max-width:320px; border-radius:8px;"/>
   </a>
 </p>
 <p align="center">

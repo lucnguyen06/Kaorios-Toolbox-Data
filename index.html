@@ -12,13 +12,13 @@
   <meta property="og:url" content="https://lucnguyen06.github.io/Kaorios-Toolbox-Data/">
   <meta property="og:title" content="Kaorios-Toolbox | Advanced Android Tweaking Suite">
   <meta property="og:description" content="Play Integrity fix, unlimited Google Photos backup, hardware spoofing, and advanced system performance tools.">
-  <meta property="og:image" content="https://raw.githubusercontent.com/lucnguyen06/Kaorios-Toolbox-Data/refs/heads/main/Toolbox-screenshots/Homenew.png">
+  <meta property="og:image" content="https://raw.githubusercontent.com/lucnguyen06/Kaorios-Toolbox-Data/refs/heads/main/Toolbox-screenshots/01-main-home-screen.png">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Kaorios-Toolbox | Advanced Android Tweaking Suite">
   <meta name="twitter:description" content="Play Integrity fix, hardware spoofing, Google Photos unlimited, and high FPS game unlocker.">
-  <meta name="twitter:image" content="https://raw.githubusercontent.com/lucnguyen06/Kaorios-Toolbox-Data/refs/heads/main/Toolbox-screenshots/Homenew.png">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/lucnguyen06/Kaorios-Toolbox-Data/refs/heads/main/Toolbox-screenshots/01-main-home-screen.png">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -114,12 +114,13 @@
               </svg>
               Download Patcher
             </a>
-            <a href="#guides" class="btn btn-secondary" id="btn-hero-guides">
+            <a href="#showcase" class="btn btn-secondary" id="btn-hero-guides">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
-                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
               </svg>
-              Documentation & Guides
+              Explore 14 App Screens
             </a>
             <a href="https://t.me/KaoriosToolbox" target="_blank" rel="noopener noreferrer" class="btn btn-outline-glow" id="btn-hero-channel">
               Join Telegram Channel →
@@ -140,8 +141,8 @@
               <span class="stat-label">Google Photos Backup</span>
             </div>
             <div class="stat-item">
-              <span class="stat-value">100%</span>
-              <span class="stat-label">On-device Dumper</span>
+              <span class="stat-value">14+</span>
+              <span class="stat-label">Dedicated Modules</span>
             </div>
           </div>
         </div>
@@ -151,15 +152,15 @@
           <div class="mockup-glow-ambient"></div>
           <div class="mockups-duo">
             <div class="phone-card card-left" id="card-hero-home" title="Click to enlarge Home screen">
-              <img src="Toolbox-screenshots/Homenew.png?v=2" alt="Kaorios Toolbox Home Screen" loading="eager">
+              <img src="Toolbox-screenshots/01-main-home-screen.png" alt="Kaorios Toolbox Home Screen" loading="eager">
               <div class="floating-tag">
-                <span> Home</span>
+                <span>⚡ Home Dashboard</span>
               </div>
             </div>
-            <div class="phone-card card-right" id="card-hero-tools" title="Click to enlarge Tools screen">
-              <img src="Toolbox-screenshots/Toolsnew.png?v=2" alt="Kaorios Toolbox System Tools" loading="eager">
+            <div class="phone-card card-right" id="card-hero-tools" title="Click to enlarge System Tools screen">
+              <img src="Toolbox-screenshots/02-navigation-menu.png" alt="Kaorios Toolbox System Tools" loading="eager">
               <div class="floating-tag">
-                <span>🛡️ System Tools & Fixes</span>
+                <span>🛡️ System Tools Hub</span>
               </div>
             </div>
           </div>
@@ -277,51 +278,63 @@
       </div>
     </section>
 
-    <!-- Interactive Showcase Section -->
+    <!-- Interactive Showcase Section (Spotlight + 14-Screens Gallery) -->
     <section class="section" id="showcase">
       <div class="container">
         <div class="section-head">
           <span class="section-tag">Interactive Preview</span>
-          <h2 class="section-title">Modern, Intuitive, and Sleek Interface</h2>
-          <p class="section-subtitle">Toggle between tabs below to inspect the core screens of Kaorios Toolbox.</p>
+          <h2 class="section-title">Complete 14-Screen Interface Showcase</h2>
+          <p class="section-subtitle">Explore every detail of Kaorios Toolbox. Click any category or screen card below to view details and zoom in.</p>
         </div>
 
+        <!-- Category Filters -->
         <div class="showcase-tab-bar">
-          <button class="tab-btn active" id="tab-btn-home" data-target="home">
-            📱 Home Dashboard
-          </button>
-          <button class="tab-btn" id="tab-btn-tools" data-target="tools">
-            ⚙️ System Tools
-          </button>
+          <button class="tab-btn active" data-category="all">🌟 All (14 Screens)</button>
+          <button class="tab-btn" data-category="core">📱 Core Dashboards</button>
+          <button class="tab-btn" data-category="integrity">🛡️ Play Integrity</button>
+          <button class="tab-btn" data-category="tweaks">⚙️ System Tweaks</button>
+          <button class="tab-btn" data-category="games">🎮 Game Spoof & HUD</button>
+          <button class="tab-btn" data-category="payload">🧰 Payload & Anti-Detect</button>
+          <button class="tab-btn" data-category="ui">🎨 UI & Themes</button>
         </div>
 
+        <!-- Featured Spotlight Box -->
         <div class="showcase-display-box" id="showcase-container">
           <div class="showcase-view-phone">
-            <div class="showcase-phone-frame" id="showcase-frame" title="Click to view full resolution image">
-              <img src="Toolbox-screenshots/Homenew.png?v=2" alt="Kaorios Showcase" id="showcase-img">
+            <div class="showcase-phone-frame" id="showcase-frame" title="Click to open full-resolution lightbox viewer">
+              <img src="Toolbox-screenshots/01-main-home-screen.png" alt="Kaorios Showcase Screen" id="showcase-img">
             </div>
           </div>
 
           <div class="showcase-info" id="showcase-info-content">
-            <span class="badge-dot" style="margin-bottom: 12px;"></span>
+            <span class="showcase-badge-pill" id="showcase-badge">Core Dashboard</span>
             <h3 id="showcase-title">Home Dashboard — Real-time Device Diagnostics</h3>
             <p id="showcase-desc" style="color: var(--text-muted); font-size: 1.05rem;">
-              Comprehensive hardware telemetry at your fingertips: RAM utilization, storage metrics, battery health and charge state, chipset identification (Snapdragon SM8850), live weather, and OS build information.
+              Real-time hardware statistics at your fingertips: RAM utilization, storage metrics, battery health and charge state, chipset identification (Snapdragon SM8850), live weather, and OS build info.
             </p>
 
             <ul class="showcase-bullets" id="showcase-list">
-              <li><span class="bullet-check">✓</span> Live RAM and storage capacity consumption indicators</li>
-              <li><span class="bullet-check">✓</span> Battery temperature and charging status telemetry</li>
-              <li><span class="bullet-check">✓</span> Customizable galaxy cosmic header theme</li>
+              <li><span class="bullet-check">✓</span> Live RAM and internal storage consumption meters</li>
+              <li><span class="bullet-check">✓</span> Battery health, temperature, and charging status telemetry</li>
+              <li><span class="bullet-check">✓</span> Customizable cosmic galaxy header theme</li>
               <li><span class="bullet-check">✓</span> Detailed manufacturer, brand, and device identifiers</li>
             </ul>
 
             <div style="display: flex; gap: 14px; flex-wrap: wrap;">
               <a href="https://github.com/lucnguyen06/Kaorios-Toolbox-Data/tree/main/Toolbox-screenshots" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
-                🔍 View all screenshots on GitHub →
+                🔍 Browse all screenshots on GitHub →
               </a>
             </div>
           </div>
+        </div>
+
+        <!-- 14-Screens Gallery Grid -->
+        <div class="gallery-head">
+          <h3 style="font-family: var(--font-heading); font-size: 1.5rem; color: var(--text-main);">All Application Screens</h3>
+          <span style="color: var(--text-dim); font-size: 0.9rem;">Click any screen to spotlight and enlarge</span>
+        </div>
+        <div class="gallery-grid" id="gallery-grid">
+          <!-- Dynamically populated by script.js -->
         </div>
       </div>
     </section>
@@ -474,11 +487,17 @@
     </div>
   </footer>
 
-  <!-- Lightbox Modal for Full Image Zoom -->
+  <!-- Lightbox Modal for Full Image Zoom & Slider -->
   <div class="lightbox-modal" id="lightbox-modal" aria-hidden="true">
     <div class="lightbox-content">
       <button class="lightbox-close" id="lightbox-close" aria-label="Close modal">×</button>
+      <button class="lightbox-nav-btn lightbox-prev" id="lightbox-prev" aria-label="Previous screenshot">❮</button>
       <img src="" alt="Enlarged screenshot" class="lightbox-img" id="lightbox-img">
+      <button class="lightbox-nav-btn lightbox-next" id="lightbox-next" aria-label="Next screenshot">❯</button>
+      <div class="lightbox-caption">
+        <span id="lightbox-title"></span>
+        <span class="lightbox-counter" id="lightbox-counter"></span>
+      </div>
     </div>
   </div>
 
