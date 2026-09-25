@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaorios-Toolbox | Advanced Android Tweaking & Spoofing Suite</title>
+  <meta name="description" content="Kaorios-Toolbox: Giải pháp tối ưu cho Android - Play Integrity Fix, Device Spoofing, Google Photos Unlimited, Unlock High FPS và System Tools. Phát triển bởi Kaori & Lực Nguyễn.">
+  <meta name="theme-color" content="#060913">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lucnguyen06.github.io/Kaorios-Toolbox-Data/">
+  <meta property="og:title" content="Kaorios-Toolbox | Advanced Android Tweaking Suite">
+  <meta property="og:description" content="Play Integrity fix, unlimited Google Photos backup, hardware spoofing, and advanced system performance tools.">
+  <meta property="og:image" content="https://raw.githubusercontent.com/lucnguyen06/Kaorios-Toolbox-Data/refs/heads/main/Toolbox-screenshots/Homenew.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Kaorios-Toolbox | Advanced Android Tweaking Suite">
+  <meta name="twitter:description" content="Play Integrity fix, hardware spoofing, Google Photos unlimited, and high FPS game unlocker.">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/lucnguyen06/Kaorios-Toolbox-Data/refs/heads/main/Toolbox-screenshots/Homenew.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient Cosmic Background -->
+  <div class="cosmic-bg">
+    <div class="glow-orb-1"></div>
+    <div class="glow-orb-2"></div>
+    <div class="glow-orb-3"></div>
+    <div class="bg-grid"></div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-wrap">
+      <a href="#" class="brand-logo" id="nav-brand">
+        <div class="brand-icon-box">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+            <path d="M2 12h20"></path>
+          </svg>
+        </div>
+        <span>Kaorios<span style="color: var(--primary);">Toolbox</span></span>
+        <span class="brand-badge">PRO</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="nav-menu">
+          <li><a href="#features" class="nav-link">Tính năng</a></li>
+          <li><a href="#showcase" class="nav-link">Giao diện</a></li>
+          <li><a href="#guides" class="nav-link">Hướng dẫn</a></li>
+          <li><a href="#community" class="nav-link">Cộng đồng</a></li>
+          <li><a href="#credits" class="nav-link">Credits</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://github.com/lucnguyen06/Kaorios-Toolbox-Data" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" id="btn-github-nav">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+          GitHub
+        </a>
+        <a href="https://t.me/KaoriosToolbox" target="_blank" rel="noopener noreferrer" class="btn btn-telegram" id="btn-telegram-nav">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.196 1.006.128.832.942z"/>
+          </svg>
+          Telegram
+        </a>
+      </div>
+
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-pill-badge">
+            <span class="badge-dot"></span>
+            <span>Remade & Developed by <strong>Lực Nguyễn (RIO)</strong></span>
+          </div>
+
+          <h1 class="hero-title">
+            Bộ công cụ <span class="gradient-text">Kaorios Toolbox</span> đỉnh cao cho Android
+          </h1>
+
+          <p class="hero-subtitle">
+            Hỗ trợ vượt Play Integrity toàn diện, giả lập Pixel & phần cứng per-app, sao lưu Google Photos không giới hạn, mở khóa tần số quét cao (High-FPS) cho game và tích hợp sẵn Payload Dumper.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="https://github.com/Wuang26/Kaorios-Toolbox/releases" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="btn-hero-download">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              Tải Kaorios Patcher
+            </a>
+            <a href="#guides" class="btn btn-secondary" id="btn-hero-guides">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+              </svg>
+              Xem hướng dẫn sử dụng
+            </a>
+            <a href="https://t.me/KaoriosToolbox" target="_blank" rel="noopener noreferrer" class="btn btn-outline-glow" id="btn-hero-channel">
+              Tham gia kênh Telegram →
+            </a>
+          </div>
+
+          <div class="hero-stats-row">
+            <div class="stat-item">
+              <span class="stat-value">STRONG</span>
+              <span class="stat-label">Play Integrity Passed</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">120 FPS</span>
+              <span class="stat-label">Unlock Game Modes</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">Unlimited</span>
+              <span class="stat-label">Google Photos Backup</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">100%</span>
+              <span class="stat-label">On-device Dumper</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Dual Phone Mockup Preview -->
+        <div class="hero-mockup-wrap">
+          <div class="mockup-glow-ambient"></div>
+          <div class="mockups-duo">
+            <div class="phone-card card-left" id="card-hero-home" title="Bấm để phóng to ảnh Home">
+              <img src="Toolbox-screenshots/Homenew.png?v=2" alt="Kaorios Toolbox Home Screen" loading="eager">
+              <div class="floating-tag">
+                <span>⚡ Xiaomi 17 Ultra Custom</span>
+              </div>
+            </div>
+            <div class="phone-card card-right" id="card-hero-tools" title="Bấm để phóng to ảnh Tools">
+              <img src="Toolbox-screenshots/Toolsnew.png?v=2" alt="Kaorios Toolbox System Tools" loading="eager">
+              <div class="floating-tag">
+                <span>🛡️ System Tools & Fixes</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Tính năng nổi bật</span>
+          <h2 class="section-title">Mọi thứ bạn cần cho một chiếc máy Android hoàn hảo</h2>
+          <p class="section-subtitle">Tối ưu hiệu năng, bảo mật và khả năng tuỳ biến sâu với các tính năng vượt trội được thiết kế trực quan.</p>
+        </div>
+
+        <div class="features-grid">
+          <!-- Feature 1 -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper" style="color: #10b981;">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                <path d="m9 12 2 2 4-4"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">Play Integrity Fix</h3>
+            <p class="feature-desc">Hỗ trợ vượt kiểm tra MEETS_BASIC, MEETS_DEVICE và MEETS_STRONG INTEGRITY thông qua tích hợp Keybox và Trickystore chuẩn xác.</p>
+          </article>
+
+          <!-- Feature 2 -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper" style="color: #00f0ff;">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                <line x1="12" y1="18" x2="12.01" y2="18"></line>
+              </svg>
+            </div>
+            <h3 class="feature-title">Pixel & Model Spoofing</h3>
+            <p class="feature-desc">Giả lập linh hoạt thông số thiết bị Pixel, model Xiaomi/ROG và build properties để tương thích mọi ứng dụng và game.</p>
+          </article>
+
+          <!-- Feature 3 -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper" style="color: #3b82f6;">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">Google Photos Unlimited</h3>
+            <p class="feature-desc">Sao lưu hình ảnh và video gốc không giới hạn dung lượng lên Google Photos mà không tốn dung lượng tài khoản Google Drive.</p>
+          </article>
+
+          <!-- Feature 4 -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper" style="color: #8b5cf6;">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="3"></circle>
+                <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">Per-App Spoofing Manager</h3>
+            <p class="feature-desc">Quản lý và kích hoạt thuộc tính giả lập riêng biệt cho từng ứng dụng mà không làm ảnh hưởng đến trải nghiệm toàn hệ thống.</p>
+          </article>
+
+          <!-- Feature 5 -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper" style="color: #ec4899;">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="6 3 20 12 6 21 6 3"></polygon>
+              </svg>
+            </div>
+            <h3 class="feature-title">Unlock Game High-FPS</h3>
+            <p class="feature-desc">Mở khóa tần số quét 90 FPS / 120 FPS cho các tựa game nổi tiếng như PUBG Mobile, Genshin Impact, Free Fire, Liên Quân.</p>
+          </article>
+
+          <!-- Feature 6 -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper" style="color: #f59e0b;">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="20" x2="18" y2="10"></line>
+                <line x1="12" y1="20" x2="12" y2="4"></line>
+                <line x1="6" y1="20" x2="6" y2="14"></line>
+              </svg>
+            </div>
+            <h3 class="feature-title">FPS & CPU Overlay Display</h3>
+            <p class="feature-desc">Hiển thị HUD trực quan trên màn hình theo thời gian thực về FPS, tải CPU, nhiệt độ và xung nhịp khi đang chơi game.</p>
+          </article>
+
+          <!-- Feature 7 -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper" style="color: #06b6d4;">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+              </svg>
+            </div>
+            <h3 class="feature-title">Payload Dumper On-Device</h3>
+            <p class="feature-desc">Tích hợp công cụ trích xuất các phân vùng ảnh hệ thống (boot, init_boot, recovery, vbmeta) trực tiếp từ tệp tin payload.bin OTA mà không cần máy tính.</p>
+          </article>
+
+          <!-- Feature 8 -->
+          <article class="feature-card">
+            <div class="feature-icon-wrapper" style="color: #a855f7;">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">Đa ngôn ngữ & Localization</h3>
+            <p class="feature-desc">Hỗ trợ đầy đủ tiếng Việt, Tiếng Anh, Tiếng Trung, Tiếng Nhật, Tiếng Nga, Tiếng Thái... cùng cộng đồng dịch thuật năng động.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Showcase Section -->
+    <section class="section" id="showcase">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Trải nghiệm thực tế</span>
+          <h2 class="section-title">Giao diện hiện đại, trực quan và tiện lợi</h2>
+          <p class="section-subtitle">Chuyển đổi giữa các tab để xem cận cảnh hai màn hình cốt lõi của Kaorios Toolbox.</p>
+        </div>
+
+        <div class="showcase-tab-bar">
+          <button class="tab-btn active" id="tab-btn-home" data-target="home">
+            📱 Màn hình chính (Home)
+          </button>
+          <button class="tab-btn" id="tab-btn-tools" data-target="tools">
+            ⚙️ Công cụ hệ thống (Tools)
+          </button>
+        </div>
+
+        <div class="showcase-display-box" id="showcase-container">
+          <div class="showcase-view-phone">
+            <div class="showcase-phone-frame" id="showcase-frame" title="Click để phóng to ảnh kích thước gốc">
+              <img src="Toolbox-screenshots/Homenew.png?v=2" alt="Kaorios Showcase" id="showcase-img">
+            </div>
+          </div>
+
+          <div class="showcase-info" id="showcase-info-content">
+            <span class="badge-dot" style="margin-bottom: 12px;"></span>
+            <h3 id="showcase-title">Màn hình chính — Giám sát thông số & Thiết bị</h3>
+            <p id="showcase-desc" style="color: var(--text-muted); font-size: 1.05rem;">
+              Tổng hợp toàn bộ thông số phần cứng thiết bị theo thời gian thực: RAM, Bộ nhớ lưu trữ, Mức Pin, Chipset vi xử lý (Snapdragon / Dimensity), Thời tiết và Thông tin bản dựng phần mềm.
+            </p>
+
+            <ul class="showcase-bullets" id="showcase-list">
+              <li><span class="bullet-check">✓</span> Hiển thị thông số RAM và Storage đã sử dụng / tổng dung lượng</li>
+              <li><span class="bullet-check">✓</span> Giám sát nhiệt độ Pin và tình trạng sạc</li>
+              <li><span class="bullet-check">✓</span> Tùy biến banner giao diện vũ trụ ấn tượng</li>
+              <li><span class="bullet-check">✓</span> Xem chi tiết thông số Nhà sản xuất & Brand thiết bị</li>
+            </ul>
+
+            <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+              <a href="https://github.com/lucnguyen06/Kaorios-Toolbox-Data/tree/main/Toolbox-screenshots" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                🔍 Xem toàn bộ ảnh chụp màn hình →
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Guides & Documentation Section -->
+    <section class="section" id="guides">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Tài liệu & Hướng dẫn</span>
+          <h2 class="section-title">Bắt đầu nhanh với Kaorios-Toolbox</h2>
+          <p class="section-subtitle">Xem các hướng dẫn cài đặt, cấu hình Keybox, vá Smali framework và tham gia đóng góp ngôn ngữ.</p>
+        </div>
+
+        <div class="guides-grid">
+          <a href="https://github.com/Wuang26/Kaorios-Toolbox/tree/main/Toolbox-docs" target="_blank" rel="noopener noreferrer" class="guide-card">
+            <div>
+              <span class="guide-tag">Tài liệu chính thức</span>
+              <h3 class="guide-title">📖 Hướng dẫn sử dụng Kaorios</h3>
+              <p class="guide-snippet">Tài liệu hướng dẫn chi tiết từng bước cho các phiên bản V1.0.9 và V2.0.3+ mới nhất.</p>
+            </div>
+            <span class="guide-link-action">Đọc tài liệu →</span>
+          </a>
+
+          <a href="https://github.com/lucnguyen06/Kaorios-Toolbox-Data/blob/main/Toolbox-docs/V2.0.3%2B/Disable_Secure_Flag.md" target="_blank" rel="noopener noreferrer" class="guide-card">
+            <div>
+              <span class="guide-tag">Bảo mật & Tùy biến</span>
+              <h3 class="guide-title">🔓 Disable Secure Flag</h3>
+              <p class="guide-snippet">Hướng dẫn gỡ bỏ cấm chụp ảnh màn hình (FLAG_SECURE) trên các ứng dụng ngân hàng và ứng dụng bảo mật.</p>
+            </div>
+            <span class="guide-link-action">Xem hướng dẫn →</span>
+          </a>
+
+          <a href="https://github.com/lucnguyen06/Kaorios-Toolbox-Data/tree/main/Toolbox-languages" target="_blank" rel="noopener noreferrer" class="guide-card">
+            <div>
+              <span class="guide-tag">Cộng đồng</span>
+              <h3 class="guide-title">🌍 Đóng góp bản dịch</h3>
+              <p class="guide-snippet">Hỗ trợ dịch Kaorios Toolbox sang ngôn ngữ của bạn thông qua file strings.xml mở trong thư mục Toolbox-languages.</p>
+            </div>
+            <span class="guide-link-action">Xem ngôn ngữ →</span>
+          </a>
+
+          <a href="https://github.com/Wuang26/Kaorios-Toolbox/releases" target="_blank" rel="noopener noreferrer" class="guide-card">
+            <div>
+              <span class="guide-tag">Phát hành</span>
+              <h3 class="guide-title">🚀 Kaorios Patcher Releases</h3>
+              <p class="guide-snippet">Tải về các bản dựng mới nhất của công cụ Patcher để áp dụng trực tiếp lên thiết bị của bạn.</p>
+            </div>
+            <span class="guide-link-action">Tải xuống →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Community & Telegram Banner Section -->
+    <section class="section" id="community">
+      <div class="container">
+        <div class="community-banner">
+          <h2 class="community-title">Tham gia cộng đồng Kaorios-Toolbox</h2>
+          <p class="community-desc">
+            Cập nhật những bản phát hành mới nhất, file Keybox hoạt động, trao đổi kinh nghiệm vượt Play Integrity và nhận trợ giúp từ cộng đồng người dùng đam mê Android.
+          </p>
+
+          <div class="community-btn-group">
+            <a href="https://t.me/KaoriosToolbox" target="_blank" rel="noopener noreferrer" class="btn btn-telegram" id="btn-tg-channel">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.196 1.006.128.832.942z"/>
+              </svg>
+              Kênh Telegram (@KaoriosToolbox)
+            </a>
+            <a href="https://t.me/KariosToolboxDiscussion" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" id="btn-tg-chat">
+              💬 Nhóm thảo luận Telegram
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Credits & Attribution Section -->
+    <section class="section" id="credits" style="padding-top: 20px;">
+      <div class="container">
+        <div class="section-head" style="margin-bottom: 36px;">
+          <span class="section-tag">Đóng góp & Ghi nhận</span>
+          <h2 class="section-title">🙏 Credits & Tri ân</h2>
+          <p class="section-subtitle">Chân thành cảm ơn các nhà phát triển và dự án mã nguồn mở đã tạo nên nền tảng cho Kaorios Toolbox.</p>
+        </div>
+
+        <div class="credits-grid">
+          <a href="https://github.com/Wuang26" target="_blank" rel="noopener noreferrer" class="credit-box">
+            <div class="credit-avatar">K</div>
+            <div class="credit-info">
+              <h4>Kousei (Kaori)</h4>
+              <p>Original Developer — @Wuang26</p>
+            </div>
+          </a>
+
+          <a href="https://github.com/lucnguyen06" target="_blank" rel="noopener noreferrer" class="credit-box">
+            <div class="credit-avatar" style="color: #a855f7; border-color: rgba(168, 85, 247, 0.4);">L</div>
+            <div class="credit-info">
+              <h4>Lực Nguyễn (RIO)</h4>
+              <p>Modified & Further Developed</p>
+            </div>
+          </a>
+
+          <a href="https://github.com/rcmiku/Payload-Dumper-Compose" target="_blank" rel="noopener noreferrer" class="credit-box">
+            <div class="credit-avatar" style="color: #10b981; border-color: rgba(16, 185, 129, 0.4);">R</div>
+            <div class="credit-info">
+              <h4>rcmiku</h4>
+              <p>Payload Dumper Compose</p>
+            </div>
+          </a>
+
+          <div class="credit-box" style="cursor: default;">
+            <div class="credit-avatar" style="color: #f59e0b; border-color: rgba(245, 158, 11, 0.4);">A</div>
+            <div class="credit-info">
+              <h4>AOSP & Trickystore</h4>
+              <p>Android Open Source & Frameworks</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <div class="brand-icon-box" style="width: 32px; height: 32px;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+              <path d="M2 12h20"></path>
+            </svg>
+          </div>
+          <span style="font-family: var(--font-heading); font-size: 1.1rem; font-weight: 700; color: white;">Kaorios-Toolbox</span>
+        </div>
+
+        <div style="display: flex; gap: 20px;">
+          <a href="https://github.com/lucnguyen06/Kaorios-Toolbox-Data" target="_blank" rel="noopener noreferrer" style="color: var(--text-muted); text-decoration: none;">GitHub</a>
+          <a href="https://t.me/KaoriosToolbox" target="_blank" rel="noopener noreferrer" style="color: var(--text-muted); text-decoration: none;">Telegram Channel</a>
+          <a href="https://t.me/KariosToolboxDiscussion" target="_blank" rel="noopener noreferrer" style="color: var(--text-muted); text-decoration: none;">Discussion</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Kaorios-Toolbox. Originally created by Kaori. Remade and developed by Lực Nguyễn.</p>
+        <p>Built for Android Customization Enthusiasts.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal for Full Image Zoom -->
+  <div class="lightbox-modal" id="lightbox-modal" aria-hidden="true">
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightbox-close" aria-label="Close modal">×</button>
+      <img src="" alt="Enlarged screenshot" class="lightbox-img" id="lightbox-img">
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
