@@ -16,14 +16,13 @@
 ## 🖼️ Screenshots
 
 <p align="center">
-  <a href="https://github.com/lucnguyen06/Kaorios-Toolbox-Data/blob/main/Toolbox-screenshots/Home.jpg">
-    <img src="https://github.com/lucnguyen06/Kaorios-Toolbox-Data/blob/main/Toolbox-screenshots/Home.jpg" alt="Home Screen" width="45%" style="max-width:320px; border-radius:8px;"/>
+  <a href="https://raw.githubusercontent.com/lucnguyen06/Kaorios-Toolbox-Data/refs/heads/main/Toolbox-screenshots/Home.jpg">
+    <img src="https://raw.githubusercontent.com/lucnguyen06/Kaorios-Toolbox-Data/refs/heads/main/Toolbox-screenshots/Home.jpg" alt="Home Screen" width="45%" style="max-width:320px; border-radius:8px;"/>
   </a>
   <a href="https://raw.githubusercontent.com/Wuang26/Kaorios-Toolbox/refs/heads/main/Toolbox-screenshots/Tools.png">
     <img src="https://raw.githubusercontent.com/Wuang26/Kaorios-Toolbox/refs/heads/main/Toolbox-screenshots/Tools.png" alt="Tools Screen" width="45%" style="max-width:320px; border-radius:8px;"/>
   </a>
 </p>
-
 <p align="center">
   <a href="https://github.com/Wuang26/Kaorios-Toolbox/tree/main/Toolbox-screenshots">🔍 See more screenshots →</a>
 </p>
